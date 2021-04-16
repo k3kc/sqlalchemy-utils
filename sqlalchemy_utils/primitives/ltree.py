@@ -6,7 +6,7 @@ import six
 
 from ..utils import str_coercible
 
-path_matcher = re.compile(r'^[A-Za-z0-9_]+(\.[A-Za-z0-9_]+)*$')
+path_matcher = re.compile(r'^[\w]+(\.[\w]+)*$')
 
 
 @str_coercible
